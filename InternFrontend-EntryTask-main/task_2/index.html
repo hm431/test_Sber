@@ -7,7 +7,34 @@
     <title>Vite + Svelte + TS</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
+
+
+
+
+    <div id="app">
+      <form class="form">
+
+
+      <input type="text" name="second-value" placeholder="Введите название валюты" id="name"
+      class="currency-select-first">
+
+      <input type="text" name="first-value" placeholder="Введите значение" id="name"
+      class="form__first_input">
+
+      
+        <input type="text" name="second-value" placeholder="Введите название валюты" id="name"
+        class="currency-select-second">
+
+     
+      <input type="text" name="second-value" placeholder="Введите значение" id="name"
+      class="form__second_input">
+
+      <button type="submit" class="form__save">перевести</button>
+    </form>
+    </div>
+
+
+    <script type="module" src=./src/index.js></script>
+    
   </body>
 </html>
